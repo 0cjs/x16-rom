@@ -9,6 +9,13 @@ This is the Commander X16 ROM containing BASIC, KERNAL, DOS and GEOS. BASIC and 
 	* does not support tape (device 1).
 * GEOS is fully compatible with the C64 version.
 
+## Releases and Building
+
+Each [release of the X16 emulator](https://github.com/commanderx16/x16-emulator/releases) includes a compatible build of `rom.bin`. If you wish to build this yourself (perhaps because you're also building the emulator) see [`BUILD.md`](BUILD.md).
+
+> __WARNING:__ The emulator will work only with a contemporary version
+> of `rom.bin`; eariler or later versions are likely to fail.
+
 ## New Features
 
 * F-keys:
